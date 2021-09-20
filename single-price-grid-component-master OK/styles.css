@@ -1,0 +1,88 @@
+
+@import url("styles.scss");
+
+
+
+body {
+  padding: 0;
+}
+
+* {
+  font-family: "Karla";
+  font-weight: bold;
+}
+
+.bas p {
+  color: rgb(216, 212, 212);
+}
+
+h3,
+span {
+  color: rgb(216, 212, 212);
+}
+
+p {
+  color: #a8a8a8;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+h4 {
+  color: hsl(71, 73%, 54%);
+}
+
+article {
+  width: 650px;
+  overflow: hidden;
+  margin: 7% auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 5px #a8a8a8;
+}
+
+section {
+  padding: 5%;
+}
+
+.bas section {
+  width: 45%;
+  height: 200px;
+  padding: 5%;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gauche {
+  width: 250px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.gauche a {
+  padding: 10px 100px 10px 100px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid rgba(242, 245, 240, 0.3);
+  background-color: hsl(71, 73%, 54%);
+}
+
+.gauche a:hover {
+  color: aliceblue;
+  background-color: hsl(70, 83%, 9%);
+}
+
+.droite {
+  background-color: hsl(179, 50%, 49%);
+}
+
+.droite p {
+  text-align: center;
+}
+
+.bas {
+  display: flex;
+  flex-direction: row;
+}
